@@ -16,8 +16,6 @@ function [S,par] = STARTS_fix(L,B,Phi,MM,varargin)
 %       par.W
 %       par.E
 %==================================================================
-% Author: Feng Zhao
-% Data: 2022/5/8
 % Reference:
 % [1] STARTS: A Self-Adapted Spatio-Temporal Framework for Automatic E/MEG Source Imaging
 
@@ -239,4 +237,5 @@ par.cost = costlist;
 S = par.W*Phi;
 
 end
+
 
